@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b255710-041c-447e-8cfe-fd60c70a766d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/JavaCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/PythonCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/ScalaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/ScalaCourse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java" afterDir="false" />
     </list>
@@ -18,50 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/JavaCourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="140">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +41,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,20 +77,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -105,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -114,8 +104,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,13 +152,21 @@
         <option value="$PROJECT_DIR$/src/factoryModel/PythonCourse.java" />
         <option value="$PROJECT_DIR$/src/factoryModel/ScalaCourse.java" />
         <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FuctionFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/ScalaCourse.java" />
         <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java" />
       </list>
     </option>
   </component>
@@ -215,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552303390081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552304392799" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -295,17 +314,48 @@
       <option name="presentableId" value="Default" />
       <updated>1552228952271</updated>
       <workItem from="1552228953621" duration="1092000" />
-      <workItem from="1552301263322" duration="2058000" />
+      <workItem from="1552301263322" duration="2675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3150000" />
+    <option name="totallyTimeSpent" value="3767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -335,7 +385,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -343,91 +393,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/PythonCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/ScalaCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/JavaCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/PythonCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/ScalaCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -436,21 +431,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="140">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/SimpleFactory/SimpleFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/ScalaCourseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/FunctionFactory/FunctionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gupaoedu/designPattern/factoryModel/AbstractFactory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>

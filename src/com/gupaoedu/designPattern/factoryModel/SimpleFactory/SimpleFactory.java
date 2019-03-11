@@ -5,6 +5,11 @@ import com.gupaoedu.designPattern.factoryModel.JavaCourse;
 import com.gupaoedu.designPattern.factoryModel.PythonCourse;
 import com.gupaoedu.designPattern.factoryModel.ScalaCourse;
 
+/**
+ * @author liangxinsheng
+ * @time 2019/3/11
+ * @QQ 754297966
+ */
 public class SimpleFactory {
 
     public Course createCourse(String courseName) {
