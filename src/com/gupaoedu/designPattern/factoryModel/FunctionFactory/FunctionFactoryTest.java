@@ -1,0 +1,23 @@
+package com.gupaoedu.designPattern.factoryModel.FunctionFactory;
+
+import com.gupaoedu.designPattern.factoryModel.Course;
+
+public class FunctionFactoryTest {
+
+    public static void main(String[] args) {
+
+        Course course = null;
+        JavaCourseFactory javaCourseFactory = new JavaCourseFactory();
+        course = javaCourseFactory.createCourse();
+        course.createCourse();
+
+        PythonCourseFactory pythonCourseFactory = new PythonCourseFactory();
+        course = pythonCourseFactory.createCourse();
+        course.createCourse();
+
+        ScalaCourseFactory scalaCourseFactory = new ScalaCourseFactory();
+        course = scalaCourseFactory.createCourse();
+        course.createCourse();
+    }
+
+}
